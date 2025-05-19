@@ -113,6 +113,34 @@ main{
 #cover-text > h2, #cover-text > h3{
     color:#ffffff;
 }
+    /* Reasons */
+#reasons{
+        margin: 20px auto;
+        width:90%;
+}
+
+#reasons h2{
+    font-size:280%;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+#benefits hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits p{
+    padding:0 20px;
+}
+
+
+#benefits-physical > div, #benefits-mental>div{
+    margin-bottom: 20px;
+    line-height: 20px;
+
+}
+
 
 /* Footer */
 #social-networks{
@@ -169,6 +197,8 @@ main{
         width:300px;
         right:50px;
     }
+
+
 }
 
 /* Media query: small laptops and larger (992px and up) */
